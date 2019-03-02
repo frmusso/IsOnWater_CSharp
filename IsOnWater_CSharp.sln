@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnWater", "OnWater\OnWater.csproj", "{D1D9B89D-BBC4-42E4-8BF2-296AEE414C7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnWater.Lib", "OnWater\OnWater.Lib.csproj", "{D1D9B89D-BBC4-42E4-8BF2-296AEE414C7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnWater.Tests", "OnWater.Tests\OnWater.Tests.csproj", "{21510946-2BF8-4A21-9A97-1411F77F6051}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D1D9B89D-BBC4-42E4-8BF2-296AEE414C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1D9B89D-BBC4-42E4-8BF2-296AEE414C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1D9B89D-BBC4-42E4-8BF2-296AEE414C7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21510946-2BF8-4A21-9A97-1411F77F6051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21510946-2BF8-4A21-9A97-1411F77F6051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21510946-2BF8-4A21-9A97-1411F77F6051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21510946-2BF8-4A21-9A97-1411F77F6051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
