@@ -1,12 +1,11 @@
-# IsOnWater_CSharp
 ## What is it?
 The purpose of the library is to check whether or not a coordinate point (Latitude, Longitude) is on water. It also provides a method to generate a random `GeoPoint(double latitude, double longitude)` with a OnWater boolean as a parameter.
 
 ## Project structure
 - [OnWater](/OnWater/): C# Library project.
-- - [OnWaterLib.cs](/OnWater/OnWaterLib.cs): Main library which contains `IsOnWater(GeoPoint p)` and `GenerateRandomGeoPoint(bool OnWater = false)` methods.
-- - [Utilities.cs](/OnWater/Utilities.cs): utility classes such as `PixelPoint`, `GeoPoint` and some utility methods.
-- - [water_8k.png](/OnWater/water_8k.png): 8k world water image used to check the point.
+	- [OnWaterLib.cs](/OnWater/OnWaterLib.cs): Main library which contains `IsOnWater(GeoPoint p)` and `GenerateRandomGeoPoint(bool OnWater = false)` methods.
+	- [Utilities.cs](/OnWater/Utilities.cs): utility classes such as `PixelPoint`, `GeoPoint` and some utility methods.
+	 [water_8k.png](/OnWater/water_8k.png): 8k world water image used to check the point.
 
 - [OnWater.Tests](/OnWater.Tests/): Console application used to test the library mentioned above.
 
@@ -39,3 +38,6 @@ public static PixelPoint CoordsToPixels(double latitude, double longitude)
 }
 ```
 It is a simple proportion knowing that longitude goes from -180 to +180 and latitude goes from -90 to +90. You can get additional information about how latitude and longitude works following this [link](https://journeynorth.org/tm/LongitudeIntro.html). 8192 and 4096 are [water_8k.png](/OnWater/water_8k.png) dimensions.
+
+## Changelog
+- 02 March 2019: First release
