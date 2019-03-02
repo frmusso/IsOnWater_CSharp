@@ -17,6 +17,17 @@ It follows these steps:
 - Check the `(X, Y)` pixel's color inside [water_8k.png](/OnWater/water_8k.png).
 - If it is white the point is on water, otherwise it's on land.
 
+```csharp
+private bool IsOnWater(PixelPoint p)
+{
+    Color color = Bmp.GetPixel(p.X, p.Y);
+    if (color.Name == "ffffffff")
+	return true;
+
+    return false;
+}
+```
+
 ## How it converts GeoPoint to PixelPoint
 
 ```csharp
