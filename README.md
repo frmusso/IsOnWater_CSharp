@@ -5,7 +5,7 @@ The purpose of the library is to check whether or not a coordinate point (Latitu
 - [OnWater](/OnWater/): C# Library project.
 	- [OnWaterLib.cs](/OnWater/OnWaterLib.cs): Main library which contains `IsOnWater(GeoPoint p)` and `GenerateRandomGeoPoint(bool OnWater = false)` methods.
 	- [Utilities.cs](/OnWater/Utilities.cs): utility classes such as `PixelPoint`, `GeoPoint` and some utility methods.
-	 [water_8k.png](/OnWater/water_8k.png): 8k world water image used to check the point.
+	- [water_8k.png](/OnWater/water_8k.png): 8k world water image used to check the point.
 
 - [OnWater.Tests](/OnWater.Tests/): Console application used to test the library mentioned above.
 
