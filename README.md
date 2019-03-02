@@ -14,7 +14,7 @@ It follows these steps:
 - Get `GeoPoint (double latitude, double longitude)` point.
 - Convert it into `PixelPoint(int X, int Y)` point using `CoordsToPixels(double latitude, double longitude)` inside [Utilities.cs](/OnWater/Utilities.cs).
 - Check the `(X, Y)` pixel's color inside [water_8k.png](/OnWater/water_8k.png).
-- If it is white the point is on water, otherwise it's on land.
+- If it is white the point is on water, otherwise it is on land.
 
 ```csharp
 private bool IsOnWater(PixelPoint p)
